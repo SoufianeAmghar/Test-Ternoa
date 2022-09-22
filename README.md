@@ -1,21 +1,23 @@
-# nuxt-with-express
+# nuxt-with-node
 
-My Boilerplate CRUD project built with [**Express**](https://expressjs.com/) as server side language, [**NuxtJS**](https://nuxtjs.org/) as frontend framework and [**Mongodb**](https://www.mongodb.com/) as database server.
+NFT collection CRUD project built with [**Node**](https://nodejs.org/en/) as server side language, [**NuxtJS**](https://nuxtjs.org/) as frontend framework and [**Mongodb**](https://www.mongodb.com/) as database server.
 
 ## Features Implemented
 
-1. CRUD With Express API
-2. Form Validations using [**express-validator**](https://express-validator.github.io/docs/)
-3. Simple notifications for crud actions
-4. Authentication using [**jwtwebtoken**](https://www.npmjs.com/package/jsonwebtoken) and [**@nuxtjs/auth**](https://auth.nuxtjs.org/) module.
+1. CRUD With api.js
+2. MetaMask connection integrated
+3. Form validation and user action validation
 
 
 
 ## Build Setup
 
 ``` bash
+# Install Nodemon to refresh the server
+npm install nodemon -g
+
 # install dependencies
-$ npm run install
+$ npm i
 
 # serve with hot reload at localhost:3000
 $ npm run dev
